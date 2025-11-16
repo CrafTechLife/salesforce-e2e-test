@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Screenshots and debug files
+*.png
+login-page.png
+login-timeout.png
+
+# Instance URL config
+/playwright/.auth/instance-url.txt
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
